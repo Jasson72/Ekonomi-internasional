@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ekonomi Internasional</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="pembuka">
+            <div class="judul">Perdagangan Internasional</div>
+            <hr class="garis">
+            <div class="sub-judul">Kerjasama Internasional</div>
+        </div>
+        <div class="penjelasan">
+            <div class="pengertian">
+                <button class="btn" onclick="togglePopup1()"><i class="fa-solid fa-folder-open"></i> Open File</button>
+                <div class="judul1" id="popup1">
+                    <p class="subjudul">1. Apa itu perdagangan internasional?</p>
+                    <br>
+                    <p>Perdagangan Internasional adalah kegiatan jual beli barang dan jasa yang melibatkan dua negara atau lebih. Ini merupakan aktivitas ekonomi yang sangat penting dalam dunia modern, menghubungkan berbagai negara dan menciptakan interdependensi ekonomi global. Perdagangan internasional dapat disebut pula sebagai international trade.</p>
+                </div>
+                
+                <button class="btn-lanjut" id="lanjutbtn1" onclick="nextContent1()">Lanjut</button>
+            </div>
+            <div class="fungsi">
+                <div class="judul1" id="popup2">
+                    <p class="subjudul">2. Fungsi perdagangan internasional?</p>
+                    <br>
+                    <p>Menambah Devisa,  Pertumbuhan ekonomi, Mempengaruhi Stabilitas Harga Barang Ekspor, Eksistensi Tenaga Kerja, Memenuhi Kebutuhan Negara yang saling bekerja sama, Mendapatkan Keuntungan Internal dan Eksternal (dampak positif).</p>
+                </div>
+
+                <button class="btn-lanjut" id="lanjutbtn2" onclick="nextContent2()">Lanjut</button>
+            </div>
+            <div class="manfaat">
+                <div class="judul1" id="popup3">
+                    <p class="subjudul">3. Dampak perdagangan internasional?</p>
+                    <br>
+                    <h3>Dampak Positif:</h3>
+                    <ul>
+                        <li>Mempercepat pertumbuhan ekonomi.</li>
+                        <li>Meningkatkan kesejahteraan masyarakat.</li>
+                        <li>Mendorong inovasi dan pengembangan.</li>
+                        <li>Memperkuat hubungan antar negara.</li>
+                        <li>Meningkatkan Kualitas Produk dan Jasa.</li>
+                    </ul>
+                    <br>
+                    <h3>Dampak Negatif:</h3>
+                    <ul>
+                        <li>Penurunan Penjualan Produk dalam Negeri</li>
+                        <li>Industri Kecil Terancam Kalah Bersaing</li>
+                        <li>Ketergantungan pada Negara Maju</li>
+                        <li>Ancaman Penjajahan Ekonomi</li>
+                        <li>Industri Lokal Kesulitan Mendapatkan Bahan Baku</li>
+                    </ul>
+                </div>
+                <a href="mcd.html"><button class="btn-lanjut" onclick="next-page" id="lanjutmcd">Next Page</button></a> 
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
