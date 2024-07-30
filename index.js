@@ -7,7 +7,7 @@ function togglePopup1() {
     lanjutButton.classList.toggle("show-button");
 
     if (popup.classList.contains("open-popup")) {
-        penjelasan.style.maxHeight = "600px"; // Adjust according to content
+        penjelasan.style.maxHeight = "710px"; 
     } else {
         penjelasan.style.maxHeight = "0";
     }
@@ -24,7 +24,7 @@ function nextContent1() {
     popup2.style.visibility = "visible";
     lanjutbutton2.style.visibility = "visible";
 
-    penjelasan.style.maxHeight = "1050px"; 
+    penjelasan.style.maxHeight = "1180px"; 
 }
 
 function nextContent2() {
@@ -38,5 +38,5 @@ function nextContent2() {
     popup3.style.visibility = "visible";
     lanjutbutton3.style.visibility = "visible";
 
-    penjelasan.style.maxHeight = "1980px"; 
+    penjelasan.style.maxHeight = "2210px"; 
 }
