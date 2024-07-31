@@ -24,7 +24,7 @@ function nextContent1() {
     popup2.style.visibility = "visible";
     lanjutbutton2.style.visibility = "visible";
 
-    penjelasan.style.maxHeight = "1180px"; 
+    penjelasan.style.maxHeight = "1200px"; 
 }
 
 function nextContent2() {
